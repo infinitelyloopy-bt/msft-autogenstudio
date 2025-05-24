@@ -8,7 +8,7 @@ This workshop is designed for non-technical team members who want to confidently
 
 ## 🌟 Workshop Overview
 
-- **What:** Hands-on introduction to [AutoGen Studio (v0.15)](~https://microsoft.github.io/autogen/0.2/docs/Getting-Started~)
+- **What:** Hands-on introduction to [AutoGen Studio (v0.15)](https://microsoft.github.io/autogen/0.2/docs/Getting-Started)
 - **Who:** Non-technical Super Heros
 - **How:** Interactive Teams sessions (check your invites for details)
 - **Why:** To build confidence, learn to follow technical instructions, and discover new ways to work smarter with AI for personal and professional development
@@ -28,7 +28,7 @@ This workshop is designed for non-technical team members who want to confidently
 Before the workshop, please follow these steps to get ready:
 
 ### 1. Sign Up for a GitHub Account
-If you don’t already have one, sign up here: [github.com/join](~https://github.com/join~)
+If you don’t already have one, sign up here: [github.com/join](https://github.com/join)
 
 ---
 
@@ -37,14 +37,14 @@ If you don’t already have one, sign up here: [github.com/join](~https://github
 AutoGen Studio requires Python (version **3.8–3.12**). _Installing version **3.12** would be ideal_.
 
 #### Windows:
-- Go to [python.org/downloads](~https://www.python.org/downloads/~)
+- Go to [python.org/downloads](https://www.python.org/downloads/)
 - Download the latest version for Windows (make sure it’s 3.8, 3.9, 3.10, 3.11, or ideally **3.12**).
 - Run the installer.
 - **Important:** Check the box that says **“Add Python to PATH”** during installation.
 - Complete the installation.
 
 #### Mac:
-- Go to [python.org/downloads](~https://www.python.org/downloads/~)
+- Go to [python.org/downloads](https://www.python.org/downloads/)
 - Download the latest macOS installer (version make sure it’s 3.8, 3.9, 3.10, 3.11, or ideally **3.12**).
 - Open the `.pkg` file and follow the prompts.
 - By default, Python is added to your PATH. If you have issues, restart your Terminal or computer.
