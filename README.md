@@ -81,11 +81,13 @@ If you see a version number, you’re good! If not, see [pip installation guide]
 Once Python and pip are installed, open your command prompt or terminal and run:
 
 **Windows:**
+
 `pip install autogenstudio==0.15`
 
 _or_
 
 **Mac**
+
 `pip3 install autogenstudio==0.15`
 
 For more details, see the [official Getting Started guide](https://microsoft.github.io/autogen/0.2/docs/Getting-Started).
