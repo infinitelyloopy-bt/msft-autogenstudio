@@ -13,10 +13,4 @@ As you know, we have services and data sources at our AWS cloud and in our Azure
 
 ### Example for personal / professional productivity
 
-I want to provide my comprehensive writing and then using the agentic framework and details below, help me create the right number of agents to review my writing before I post on a Microsoft blog?
-
----
-
-## Mermaid Diagram Viewer
-
-[Mermaid Drawing - Free Online Mermaid Chart & Diagram Tool](https://mermaid-drawing.com/)
+I want to provide my comprehensive writing and then using the agentic framework and details below, help me create the right number of agents to review my writing before I post on a Microsoft blog? Include an editor, a fact checker, and someone who represents my target audience who is someone in the technology industry but leans more towards business outcomes and impact rather than technical details.
