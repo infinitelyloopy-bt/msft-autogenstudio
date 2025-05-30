@@ -37,7 +37,7 @@ AutoGen Studio requires Python (version **3.8–3.12**). _Installing version **3
 > - **Mac:** `python3 --version`  
 > You should see a version between 3.8 and 3.12.
 
-> AutoGen Studio v0.15 does **not** support Python 3.13 or newer.  
+> AutoGen Studio v0.1.5 does **not** support Python 3.13 or newer.  
 > See [Getting Started Guide](https://microsoft.github.io/autogen/0.2/docs/Getting-Started#installation).
 
 ---
