@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/791092a9-31e3-48ac-8bb6-8180187fa65e)# Welcome to the AutoGen Studio Workshop! 🚀
+# Welcome to the AutoGen Studio Workshop! 🚀
 
 **Empowering Everyone at Microsoft Asia to Explore AI – No Coding Required!**
 
