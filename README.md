@@ -43,8 +43,10 @@ AutoGen Studio requires Python (version **3.8–3.12**). _Installing version **3
 
 ### 2. Install pip
 
-Check if pip is installed by running:  
-`pip3 --version`  
+Check if pip is installed by running:
+
+- **Windows:** `pip --version`  
+- **Mac:** `pip3 --version`  
 
 If it’s not found, follow the [pip installation guide](https://pip.pypa.io/en/stable/installation/).
 
@@ -55,7 +57,18 @@ If it’s not found, follow the [pip installation guide](https://pip.pypa.io/en/
 Once Python and pip are ready, run:
 
 - **Windows:** `pip install autogenstudio==0.1.5`  
-- **Mac:** `pip install autogenstudio==0.1.5`  
+- **Mac:** `pip3 install autogenstudio==0.1.5`  
+
+More details here: [AutoGen Studio Docs](https://microsoft.github.io/autogen/0.2/docs/Getting-Started)
+
+---
+
+### 4. Install OpenAI Python Library
+
+Once you have installed AutogenStudio, run:
+
+- **Windows:** `pip install openai`  
+- **Mac:** `pip3 install openai`  
 
 More details here: [AutoGen Studio Docs](https://microsoft.github.io/autogen/0.2/docs/Getting-Started)
 
