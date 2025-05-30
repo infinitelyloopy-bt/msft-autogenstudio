@@ -54,8 +54,8 @@ If it’s not found, follow the [pip installation guide](https://pip.pypa.io/en/
 
 Once Python and pip are ready, run:
 
-- **Windows:** `pip install autogenstudio==0.15`  
-- **Mac:** `pip3 install autogenstudio==0.15`  
+- **Windows:** `pip install autogenstudio==0.1.5`  
+- **Mac:** `pip install autogenstudio==0.1.5`  
 
 More details here: [AutoGen Studio Docs](https://microsoft.github.io/autogen/0.2/docs/Getting-Started)
 
