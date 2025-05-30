@@ -1,4 +1,4 @@
-# Welcome to the AutoGen Studio Workshop! 🚀
+![image](https://github.com/user-attachments/assets/791092a9-31e3-48ac-8bb6-8180187fa65e)# Welcome to the AutoGen Studio Workshop! 🚀
 
 **Empowering Everyone at Microsoft Asia to Explore AI – No Coding Required!**
 
@@ -8,7 +8,7 @@ This workshop is designed for non-technical team members who want to confidently
 
 ## 🌟 Workshop Overview
 
-- **What:** Hands-on introduction to [AutoGen Studio (v0.15)](https://microsoft.github.io/autogen/0.2/docs/Getting-Started)  
+- **What:** Hands-on introduction to [AutoGen Studio (v0.1.5)](https://microsoft.github.io/autogen/0.2/docs/Getting-Started)  
 - **Who:** Non-technical Super Heros  
 - **How:** Interactive Teams sessions (check your invites for details)  
 - **Why:** To build confidence, learn to follow technical instructions, and discover new ways to work smarter with AI for personal and professional development  
@@ -17,7 +17,7 @@ This workshop is designed for non-technical team members who want to confidently
 
 ## 📝 What You’ll Learn
 
-- How to set up and use AutoGen Studio (v0.15) on your own computer  
+- How to set up and use AutoGen Studio (v0.1.5) on your own computer  
 - How to use GitHub for collaboration (even if you’ve never coded!)  
 - How to find answers and keep learning using free resources like YouTube and Copilot  
 
