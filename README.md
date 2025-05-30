@@ -77,13 +77,15 @@ Once you have installed AutogenStudio, run:
 
 ### 1. Create a GitHub Account  
 If you don’t already have one: [github.com/join](https://github.com/join)
+You will need to create a personal account that you will link to your name@microsoft.com account
 
-### 2. Activate Your GitHub Copilot Benefit  
+### 2. Activate Your GitHub Copilot Benefits
 - Visit [aka.ms/copilot](https://aka.ms/copilot)  
 - Sign in with your GitHub account  
 - Follow the instructions to activate your employee Copilot benefit
 
-### 3. Set Up GitHub Copilot in VS Code  
+### Optional - 3. Set Up GitHub Copilot in VS Code
+- _This step is NOT needed for Autogen Studio_
 - Open **Visual Studio Code**  
 - Go to Extensions (`Ctrl+Shift+X`)  
 - Search and install **GitHub Copilot**  
