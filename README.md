@@ -70,8 +70,6 @@ Once you have installed AutogenStudio, run:
 - **Windows:** `pip install openai`  
 - **Mac:** `pip3 install openai`  
 
-More details here: [AutoGen Studio Docs](https://microsoft.github.io/autogen/0.2/docs/Getting-Started)
-
 ---
 
 ## 🧰 GitHub Essentials & Copilot Setup
