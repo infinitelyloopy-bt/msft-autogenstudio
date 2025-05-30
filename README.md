@@ -84,15 +84,6 @@ You will need to create a personal account that you will link to your name@micro
 - Sign in with your GitHub account  
 - Follow the instructions to activate your employee Copilot benefit
 
-### Optional - 3. Set Up GitHub Copilot in VS Code
-- _This step is NOT needed for Autogen Studio_
-- Open **Visual Studio Code**  
-- Go to Extensions (`Ctrl+Shift+X`)  
-- Search and install **GitHub Copilot**  
-- Click “Sign in to GitHub” and use the account with Copilot activated
-
-_(Optional)_ Download VS Code here: [https://code.visualstudio.com/](https://code.visualstudio.com/)
-
 ---
 
 ## 📁 How to Use This GitHub Repo
