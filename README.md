@@ -36,9 +36,16 @@ AutoGen Studio requires Python (version 3.8–3.12). Installing version 3.12 is 
 
 - Go to [python.org/downloads](https://python.org/downloads)
 - Download and install a compatible version (check "Add Python to PATH" during setup for Windows)
-- To verify: Open Terminal (Mac) or Command Prompt (Windows) and run:
-  - **Windows**: `python --version`
-  - **Mac**: `python3 --version`
+- To verify installation:
+  
+  **Windows users:**
+  1. Press `Windows key + R`, type `cmd`, and press Enter to open Command Prompt
+  2. Type `python --version` and press Enter
+  
+  **Mac users:**
+  1. Press `Cmd + Space`, type `terminal`, and press Enter to open Terminal
+  2. Type `python3 --version` and press Enter
+
 - You should see a version between 3.8 and 3.12.
 
 ⚠️ **Important**: AutoGen Studio v0.1.5 does not support Python 3.13 or newer.  
@@ -46,25 +53,41 @@ AutoGen Studio requires Python (version 3.8–3.12). Installing version 3.12 is 
 
 ### 3. Install pip
 
-Check if pip is installed by running:
-- **Windows**: `pip --version`
-- **Mac**: `pip3 --version`
+Check if pip is installed:
+
+**Windows users:**
+1. Open Command Prompt (press `Windows key + R`, type `cmd`, press Enter)
+2. Type `pip --version` and press Enter
+
+**Mac users:**
+1. Open Terminal (press `Cmd + Space`, type `terminal`, press Enter)
+2. Type `pip3 --version` and press Enter
 
 If it's not found, follow the [pip installation guide](https://pip.pypa.io/en/stable/installation/).
 
 ### 4. Install AutoGen Studio
 
-Once Python and pip are ready, run:
-- **Windows**: `pip install autogenstudio==0.1.5`
-- **Mac**: `pip3 install autogenstudio==0.1.5`
+Once Python and pip are ready:
+
+**Windows users:**
+1. Open Command Prompt (press `Windows key + R`, type `cmd`, press Enter)
+2. Type `pip install autogenstudio==0.1.5` and press Enter
+
+**Mac users:**
+1. Open Terminal (press `Cmd + Space`, type `terminal`, press Enter)
+2. Type `pip3 install autogenstudio==0.1.5` and press Enter
 
 📚 More details here: [AutoGen Studio Docs](https://microsoft.github.io/autogen/0.2/docs/Getting-Started)
 
 ### 5. Install OpenAI Python Library
 
-Once you have installed AutoGen Studio, run:
-- **Windows**: `pip install openai`
-- **Mac**: `pip3 install openai`
+Once you have installed AutoGen Studio:
+
+**Windows users:**
+1. In the same Command Prompt window, type `pip install openai` and press Enter
+
+**Mac users:**
+1. In the same Terminal window, type `pip3 install openai` and press Enter
 
 ## 🧰 GitHub Essentials & Copilot Setup
 
