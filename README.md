@@ -116,9 +116,22 @@ You don't have to be technical to make a difference. Let's explore the world of 
 
 This repository contains:
 
-- **Writing Assistant Agents** - A complete set of 5 specialized AutoGen Studio agents for reviewing and optimizing written content
-- **Setup Guides** - Step-by-step instructions for getting started
-- **Examples** - Practical demonstrations of how to use the agents
-- **Quick References** - Fast-access guides for daily use
+### 🎯 Agent Systems
 
-Explore the folders above to discover powerful AI writing assistants that can help transform your content into its best possible version!
+- **Writing Assistant Agents** - A complete set of 5 specialized AutoGen Studio agents for reviewing and optimizing written content (blog posts, articles, papers)
+- **Microsoft Data & AI Agents** - A comprehensive team of 8 specialized agents representing different roles in Microsoft's Data & AI organization for customer engagements
+
+### 📖 Documentation & Resources
+
+- **Setup Guides** - Step-by-step instructions for getting started with AutoGen Studio
+- **Examples** - Practical demonstrations and user prompt examples for both agent systems
+- **Quick References** - Fast-access guides for daily use and agent capabilities
+
+### 🚀 What You Can Do
+
+- **Content Creation**: Transform drafts into polished, professional content
+- **Customer Engagements**: Simulate realistic Microsoft Data & AI team interactions
+- **Business Solutions**: Get expert perspectives on data, AI, security, and business strategy
+- **Learning & Practice**: Build confidence with AI tools in a safe, structured environment
+
+Explore the folders above to discover powerful AI agents that can help with both content optimization and Microsoft customer engagement scenarios!
