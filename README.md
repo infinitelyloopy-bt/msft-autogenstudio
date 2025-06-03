@@ -147,8 +147,10 @@ This repository contains:
 ### 📖 Documentation & Resources
 
 - **Setup Guides** - Step-by-step instructions for getting started with AutoGen Studio
+- **Architecture Diagrams** - Visual workflows and team interaction patterns for both agent systems
 - **Examples** - Practical demonstrations and user prompt examples for both agent systems
 - **Quick References** - Fast-access guides for daily use and agent capabilities
+- **Usage Examples** - Detailed scenarios showing how to effectively use each agent system
 
 ### 🚀 What You Can Do
 
