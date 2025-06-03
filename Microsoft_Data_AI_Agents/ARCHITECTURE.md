@@ -15,7 +15,7 @@ graph TB
     
     subgraph "⚙️ Technical Implementation Layer"
         PS[🏗️ Pre-Sales<br/>data_ai_presales<br/>Technical Architecture & Design]
-        GBB[🌟 GBB (Global Black Belt)<br/>data_ai_gbb<br/>Advanced Technical Expertise]
+        GBB[🌟 GBB - Global Black Belt<br/>data_ai_gbb<br/>Advanced Technical Expertise]
         SR[🔒 Security Reviewer<br/>data_ai_security_reviewer<br/>Security & Compliance]
     end
     
