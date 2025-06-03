@@ -16,7 +16,7 @@ I am the Chief Data Officer at Transport for NSW. Lately we have been having dif
 
 I want to come up with a modern analytics platform so that in the event a future disruption happens, I want to find out how I can leverage my existing data to reroute buses and light rail and Sydney Metro to accommodate and replace services. Our normal process is that when a distruption like this happens to our network, we also reach out to Uber to negotiate a capped surcharge so everyone is able to get to work or home safely in a cost effective manner.
 
-As you know, we have services and data sources at our AWS cloud and in our Azure cloud. So please keep that in the back of your mind. I also want to leverage by existing PowerBI and Microsoft Fabric, but some of our teams also uses Azure Databricks.
+As you know, we have services and data sources at our AWS cloud, Snowflake, and in our Azure cloud. So please keep that in the back of your mind. I also want to leverage by existing PowerBI and Microsoft Fabric, but some of our teams also uses Azure Databricks.
 ```
 
 **Why This Works**:
