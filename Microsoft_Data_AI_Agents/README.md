@@ -22,119 +22,45 @@ This collection of 8 specialized Microsoft Data & AI agents provides comprehensi
 
 ## Individual Agent Capabilities
 
-### 🎯 **Data & AI Specialist** (`data_ai_specialist`)
-**Focus**: Business outcomes and value realization
 
-**Key Capabilities**:
-- Translates technical concepts into business value
-- Demonstrates ROI and business impact
-- Creates executive-ready business cases
-- Connects solutions to industry trends
-- Addresses business stakeholder concerns
 
-**Best For**: Executive presentations, business justification, value proposition development
+### 🎯 Data & AI Specialist (`data_ai_specialist`)
 
----
+Translates technical Data & AI solutions into clear business value. Explains ROI, business impact, and success metrics in simple language.
 
-### 🏗️ **Pre-Sales** (`data_ai_presales`)
-**Focus**: Technical solution architecture and design
+### 🏗️ Pre-Sales (`data_ai_presales`)
 
-**Key Capabilities**:
-- Designs comprehensive technical architectures
-- Provides detailed implementation guidance
-- Creates technical diagrams and documentation
-- Ensures Azure best practices compliance
-- Delivers pre-sales technical deliverables
+Designs Azure Data & AI solutions to fit customer needs. Explains technical plans, diagrams, and best practices simply and directly.
 
-**Best For**: Technical workshops, architecture reviews, implementation planning
+### 🌟 GBB - Global Black Belt (`data_ai_gbb`)
 
----
+Delivers advanced Azure Data & AI solutions using global best practices. Shares insights from complex, real-world scenarios.
 
-### 🌟 **GBB - Global Black Belt** (`data_ai_gbb`)
-**Focus**: Advanced technical expertise and global insights
+### 🔒 Security Reviewer (`data_ai_security_reviewer`)
 
-**Key Capabilities**:
-- Provides thought leadership and innovation guidance
-- Shares global customer success patterns
-- Offers complex problem-solving approaches
-- Delivers industry-specific expertise
-- Ensures world-class technical standards
+Reviews Data & AI solutions for security, compliance, and risk. Recommends Azure security best practices and practical mitigations.
 
-**Best For**: Complex technical challenges, innovation workshops, strategic technical guidance
+### 🏢 Customer (`data_ai_customer`)
 
----
+Shares real business problems, goals, and constraints. Asks practical questions and requests clear business cases.
 
-### 🔒 **Security Reviewer** (`data_ai_security_reviewer`)
-**Focus**: Security, compliance, and risk management
+### 🔍 Customer Reviewer (`data_ai_customer_reviewer`)
 
-**Key Capabilities**:
-- Conducts comprehensive security assessments
-- Ensures compliance with regulations (GDPR, HIPAA, etc.)
-- Reviews data governance frameworks
-- Identifies and mitigates security risks
-- Recommends Azure security best practices
+Critically reviews solutions for weaknesses, cost, and value. Pushes for clear justifications and improvements.
 
-**Best For**: Security reviews, compliance validation, risk assessment
+### 📋 Planner (`data_ai_planner`)
 
----
+Starts by calling on Specialist, Pre-Sales, and GBB. Gathers input, resolves conflicts, and creates a clear, step-by-step plan.
 
-### 🏢 **Customer** (`data_ai_customer`)
-**Focus**: Real-world business perspective and constraints
+### 💬 Group Chat Manager (`data_ai_group_chat_manager`)
 
-**Key Capabilities**:
-- Presents authentic business challenges
-- Expresses practical implementation constraints
-- Asks probing questions about feasibility
-- Represents stakeholder concerns
-- Evaluates vendor capabilities
-
-**Best For**: Solution validation, requirement gathering, stakeholder representation
-
----
-
-### 🔍 **Customer Reviewer** (`data_ai_customer_reviewer`)
-**Focus**: Critical evaluation and optimization
-
-**Key Capabilities**:
-- Challenges solution assumptions
-- Evaluates cost-effectiveness
-- Identifies risks and alternatives
-- Demands clear justifications
-- Optimizes value proposition
-
-**Best For**: Solution critique, cost optimization, risk identification
-
----
-
-### 📋 **Planner** (`data_ai_planner`)
-**Focus**: Strategic planning and coordination
-
-**Key Capabilities**:
-- Orchestrates multi-perspective input
-- Creates comprehensive implementation roadmaps
-- Synthesizes conflicting requirements
-- Develops detailed project plans
-- Provides implementation guidance
-
-**Best For**: Solution planning, roadmap development, project coordination
-
----
-
-### 💬 **Group Chat Manager** (`data_ai_group_chat_manager`)
-**Focus**: Communication facilitation and team coordination
-
-**Key Capabilities**:
-- Facilitates structured team discussions
-- Manages speaking order and turn-taking
-- Synthesizes key discussion points
-- Resolves conflicts and builds consensus
-- Documents outcomes and decisions
-
-**Best For**: Team coordination, meeting facilitation, consensus building
+Facilitates clear, organized team discussions. Ensures all agents contribute, manages turn-taking, and documents outcomes.
 
 ## Typical Engagement Workflows
 
+
 ### **Customer Discovery & Requirements Gathering**
+
 1. **Customer** presents business challenges and requirements
 2. **Data & AI Specialist** translates to business outcomes
 3. **Pre-Sales** and **GBB** gather technical requirements
@@ -142,6 +68,7 @@ This collection of 8 specialized Microsoft Data & AI agents provides comprehensi
 5. **Group Chat Manager** synthesizes requirements
 
 ### **Solution Design & Architecture**
+
 1. **GBB** provides technical thought leadership
 2. **Pre-Sales** designs detailed architecture
 3. **Security Reviewer** validates security approach
@@ -149,6 +76,7 @@ This collection of 8 specialized Microsoft Data & AI agents provides comprehensi
 5. **Planner** creates implementation roadmap
 
 ### **Business Case Development**
+
 1. **Data & AI Specialist** develops value proposition
 2. **Customer** validates business relevance
 3. **Customer Reviewer** optimizes cost-effectiveness
@@ -156,6 +84,7 @@ This collection of 8 specialized Microsoft Data & AI agents provides comprehensi
 5. **Group Chat Manager** coordinates final review
 
 ### **Implementation Planning**
+
 1. **Planner** orchestrates comprehensive planning
 2. **Pre-Sales** provides technical implementation details
 3. **Security Reviewer** ensures security compliance
@@ -188,11 +117,21 @@ This collection of 8 specialized Microsoft Data & AI agents provides comprehensi
 
 ## Industry Applications
 
-### **Manufacturing**: Predictive maintenance, supply chain optimization, quality control
-### **Financial Services**: Fraud detection, risk analytics, customer personalization
-### **Healthcare**: Clinical analytics, patient outcomes, operational efficiency
-### **Retail**: Customer insights, inventory optimization, demand forecasting
-### **Government**: Citizen services, operational efficiency, data-driven policy making
+
+### **Manufacturing**
+Predictive maintenance, supply chain optimization, quality control
+
+### **Financial Services**
+Fraud detection, risk analytics, customer personalization
+
+### **Healthcare**
+Clinical analytics, patient outcomes, operational efficiency
+
+### **Retail**
+Customer insights, inventory optimization, demand forecasting
+
+### **Government**
+Citizen services, operational efficiency, data-driven policy making
 
 ## Success Metrics
 
