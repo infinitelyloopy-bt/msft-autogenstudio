@@ -1,6 +1,7 @@
 # Autogen Studio Agents for Microsoft DEMO
 
-> This repository provides a comprehensive library of multi-agent systems and reusable agent definitions for [Autogen Studio](https://microsoft.github.io/autogen/0.2/docs/Getting-Started), with a focus on Microsoft Data & AI, sales pipeline automation, and writing assistance. All agents follow a standardized template and orchestration model for clarity, collaboration, and production-readiness.
+> This repository provides a comprehensive library of multi-agent systems and reusable agent definitions for [Autogen Studio](https://microsoft.github.io/autogen/0.2/docs/Getting-Started), with a focus on Microsoft Data & AI and writing assistance. All agents follow a standardized template and orchestration model for clarity, collaboration, and production-readiness.
+
 
 ## Repository Structure
 
@@ -8,7 +9,13 @@
   Agents for Data & AI scenarios, including presales, specialist, planner, customer, reviewer, researcher, group chat manager, and security reviewer roles. See `Microsoft_Data_AI_Agents/README.md` for details.
 
 - **Writing_Assistant_Agents/**  
-  Agents for writing, editing, and content generation. See `Writing_Assistant_Agents/README.md` for an overview.
+  A set of 5 specialized agents for reviewing and optimizing written content (blog posts, articles, papers):
+  - Orchestrator: Coordinates the review process and synthesizes all feedback.
+  - Content Editor: Improves structure, flow, and clarity.
+  - Grammar & Style Specialist: Ensures language is correct and consistent.
+  - Technical Reviewer: Checks for accuracy and credibility.
+  - Audience Optimizer: Ensures content is relevant and engaging for the target audience.
+  See `Writing_Assistant_Agents/README.md` for an overview.
 
 - **Examples/**  
   Example user prompts and usage scenarios. See `Examples/User Prompts.md` for up-to-date prompt examples for all agent systems.
@@ -187,9 +194,10 @@ You don't have to be technical to make a difference. Let's explore the world of 
 This repository contains:
 
 
+
 ### 🎯 Agent Systems
 
-- **Writing Assistant Agents** – A complete set of specialized AutoGen Studio agents for reviewing and optimizing written content (blog posts, articles, papers)
+- **Writing Assistant Agents** – A set of 5 specialized agents for reviewing and optimizing written content: Orchestrator, Content Editor, Grammar & Style Specialist, Technical Reviewer, Audience Optimizer.
 - **Microsoft Data & AI Agents** – A comprehensive team of specialized agents representing different roles in Microsoft's Data & AI organization for customer engagements
 
 ### 📖 Documentation & Resources
