@@ -1,3 +1,49 @@
+# Autogen Studio Agents for Microsoft DEMO
+
+> This repository provides a comprehensive library of multi-agent systems and reusable agent definitions for [Autogen Studio](https://microsoft.github.io/autogen/0.2/docs/Getting-Started), with a focus on Microsoft Data & AI, sales pipeline automation, and writing assistance. All agents follow a standardized template and orchestration model for clarity, collaboration, and production-readiness.
+
+## Repository Structure
+
+- **Microsoft_Data_AI_Agents/**  
+  Agents for Data & AI scenarios, including presales, specialist, planner, customer, reviewer, researcher, group chat manager, and security reviewer roles. See `Microsoft_Data_AI_Agents/README.md` for details.
+
+- **Writing_Assistant_Agents/**  
+  Agents for writing, editing, and content generation. See `Writing_Assistant_Agents/README.md` for an overview.
+
+- **Examples/**  
+  Example user prompts and usage scenarios. See `Examples/User Prompts.md` for up-to-date prompt examples for all agent systems.
+
+- **.github/copilot-instructions.md**  
+  The authoritative guide for contributors and AI assistants, detailing agent design standards, templates, naming conventions, and orchestration best practices. **All agent definitions must follow the Markdown template and orchestration guidance in this file.**
+## Agent Design & Standards
+
+All agents are defined in Markdown files using a consistent template and naming convention, as described in `.github/copilot-instructions.md`. This ensures:
+
+- Clarity and reusability of agent definitions
+- Explicit orchestration and multi-agent collaboration
+- Easy extension and maintenance
+
+**Key points:**
+
+- Each agent is defined in its own Markdown file and grouped by domain or function in dedicated folders.
+- Orchestrator, planner, and group chat manager agents are included for multi-agent coordination.
+- System messages for each agent specify their role, expertise, and collaboration requirements.
+- **All new agents must follow the Markdown template and orchestration rules in `.github/copilot-instructions.md`.**
+## Usage
+
+1. Review agent definitions in the relevant folder for your scenario (Data & AI, Writing Assistance).
+2. Use the provided templates and orchestration patterns to build your own multi-agent workflows in Autogen Studio.
+3. Reference `Examples/User Prompts.md` for sample prompts and usage patterns for all agent systems.
+4. Follow the standards in `.github/copilot-instructions.md` for any new agent or system contributions.
+
+## References & Resources
+
+- [Autogen Studio Documentation](https://microsoft.github.io/autogen/0.2/docs/Getting-Started)
+- [copilot-instructions.md](.github/copilot-instructions.md)
+- [Microsoft_Data_AI_Agents/README.md](Microsoft_Data_AI_Agents/README.md)
+- [Writing_Assistant_Agents/README.md](Writing_Assistant_Agents/README.md)
+
+For questions or contributions, see the guidelines in `.github/copilot-instructions.md`.
 # Welcome to the AutoGen Studio Workshop! 🚀
 
 **Empowering Everyone at Microsoft Asia to Explore AI – No Coding Required!**
@@ -135,14 +181,16 @@ You don't have to be technical to make a difference. Let's explore the world of 
 
 ---
 
+
 ## 📂 Repository Contents
 
 This repository contains:
 
+
 ### 🎯 Agent Systems
 
-- **Writing Assistant Agents** - A complete set of 5 specialized AutoGen Studio agents for reviewing and optimizing written content (blog posts, articles, papers)
-- **Microsoft Data & AI Agents** - A comprehensive team of 8 specialized agents representing different roles in Microsoft's Data & AI organization for customer engagements
+- **Writing Assistant Agents** – A complete set of specialized AutoGen Studio agents for reviewing and optimizing written content (blog posts, articles, papers)
+- **Microsoft Data & AI Agents** – A comprehensive team of specialized agents representing different roles in Microsoft's Data & AI organization for customer engagements
 
 ### 📖 Documentation & Resources
 

@@ -1,6 +1,71 @@
+
 # User Prompt Examples for AutoGen Studio Agents
 
-This document contains example user prompts that demonstrate how to effectively engage with different types of AutoGen Studio agent systems. These examples show the level of detail and context needed to get the best results from your AI agents.
+This document contains example user prompts for all major agent systems in this repository. Use these as starting points for your own workflows in [Autogen Studio](https://microsoft.github.io/autogen/0.2/docs/Getting-Started). For advanced prompt design, see the guidance further below.
+
+---
+
+## Microsoft Data & AI Agents
+
+**Example: Data & AI Presales Scenario**
+
+```
+You are a Microsoft Data & AI presales team. Review the following customer requirements and propose a solution architecture. Ensure the planner, specialist, and customer reviewer agents all contribute and review the solution before finalizing.
+
+Customer requirements:
+- Migrate on-premises SQL workloads to Azure
+- Ensure security and compliance
+- Optimize for cost and scalability
+```
+
+**Example: Security Review**
+
+```
+You are the security reviewer agent. Analyze the proposed architecture for security risks and compliance gaps. Collaborate with the planner and customer reviewer agents to ensure all concerns are addressed.
+```
+
+---
+
+## Sales Pipeline Agents
+
+**Example: Sales Pipeline Collaboration**
+
+```
+You are a team of sales pipeline agents. The action planner, competitor watcher, customer insights agent, meeting facilitator, pipeline reviewer, and sales data analyst should each contribute their expertise to review the current sales pipeline and recommend next steps. The group chat manager will coordinate and synthesize the final recommendations.
+
+Pipeline data:
+- 10 open opportunities
+- 3 deals at risk due to competition
+- Customer feedback indicates interest in AI solutions
+```
+
+**Example: Competitor Analysis**
+
+```
+You are the competitor watcher agent. Analyze the latest competitor moves in the sales pipeline and share insights with the action planner and sales data analyst. Collaborate to update the sales strategy accordingly.
+```
+
+---
+
+## Writing Assistant Agents
+
+**Example: Writing Assistant Collaboration**
+
+```
+You are a team of writing assistant agents. The editor, fact-checker, and style reviewer should each review the following draft and suggest improvements. The group chat manager will coordinate and synthesize the final version.
+
+Draft text:
+"Microsoft Azure is the best cloud for all workloads."
+```
+
+**Example: Fact-Checking**
+
+```
+You are the fact-checker agent. Review the following paragraph for factual accuracy and provide corrections or supporting sources. Collaborate with the editor and style reviewer as needed.
+
+Paragraph:
+"Azure was the first cloud provider to offer AI services."
+```
 
 ---
 

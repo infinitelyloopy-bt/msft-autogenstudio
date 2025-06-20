@@ -11,7 +11,7 @@
 
 ---
 
-# Copilot Instructions for Multi-Agent Systems (Microsoft Data & AI & Generic Use)
+# Copilot Instructions for Multi-Agent Systems
 
 **Purpose:**  
 This guide helps you define, structure, and orchestrate multi-agent systems in Autogen Studio for consistent, collaborative, production-ready results.
