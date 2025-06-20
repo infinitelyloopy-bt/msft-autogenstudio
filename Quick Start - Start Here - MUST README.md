@@ -1,3 +1,16 @@
+# Quick Start
+
+**How to set up your agent instructions in VS Code:**
+
+1. **Open Visual Studio Code** on your computer.
+2. **Create a new project folder** for your work.  
+   - In VS Code, go to "File" > "Open Folder…" and create or choose a folder.
+3. **Inside your project folder**, create a new folder named `.github`.
+4. **Inside the `.github` folder**, create a new file named `copilot-instructions.md`.
+5. **Copy and paste** the Copilot instructions below into your new `copilot-instructions.md` file (starting from the next section).
+
+---
+
 # Copilot Instructions for Multi-Agent Systems (Microsoft Data & AI & Generic Use)
 
 **Purpose:**  
@@ -31,15 +44,12 @@ For every agent, use the following structure:
 # <Agent Display Name>
 
 ## Agent Name
-
 <agent_internal_name>
 
 ## Agent Description
-
 <Brief description of the agent’s purpose and main function.>
 
 ## System Message
-
 <Instructions or guidance for the agent’s behavior, expertise, and approach to tasks or interactions.>
 ```
 
@@ -53,18 +63,18 @@ For every agent, use the following structure:
 - **Level of Detail:** Set the expected level of technical or business detail based on the intended audience (technical, business, executive).
 - **Feedback Agents:** For reviewer or critic agents, describe how to give constructive feedback.
 - **Orchestration & Multi-Agent Communication:**
-  - **Explicit Coordination:** When creating multiple agents (e.g., technical reviewer and business reviewer), clearly state in each agent’s instructions how they should interact, share outputs, and synthesize results together.
-  - **Output Integration:** Ensure agents know their output may be used as input by other agents and that they must collaborate to provide a unified or synthesized response when required.
-  - **Orchestration Roles:**
-    - Always create planner/orchestrator/conductor agents as needed, even if not specifically requested.
-    - The orchestrator/planner/conductor must:
-      - Facilitate communication and collaboration among all relevant agents at the start of the process, ensuring each agent has the opportunity to contribute their expertise and review or refine intermediate outputs through discussion.
-      - Aggregate and synthesize all feedback, information, and recommendations provided by participating agents.
-      - Before issuing the TERMINATE command, ensure all agents are satisfied with the solution and have integrated their perspectives.
-      - Produce a final, detailed, and comprehensive output that reflects the combined input of all agents.
-      - Always end with:  
-        `"YOUR FINAL RESPONSE MUST BE THE COMPLETE PLAN. When the plan is complete and all perspectives are integrated, you can respond with TERMINATE."`
-  - **Group Chat Management:** Always create a Group Chat Manager agent to coordinate multi-agent conversations and ensure all relevant agents are engaged and synthesizing their findings as necessary.
+    - **Explicit Coordination:** When creating multiple agents (e.g., technical reviewer and business reviewer), clearly state in each agent’s instructions how they should interact, share outputs, and synthesize results together.
+    - **Output Integration:** Ensure agents know their output may be used as input by other agents and that they must collaborate to provide a unified or synthesized response when required.
+    - **Orchestration Roles:**  
+        - Always create planner/orchestrator/conductor agents as needed, even if not specifically requested.
+        - The orchestrator/planner/conductor must:
+            - Facilitate communication and collaboration among all relevant agents at the start of the process, ensuring each agent has the opportunity to contribute their expertise and review or refine intermediate outputs through discussion.
+            - Aggregate and synthesize all feedback, information, and recommendations provided by participating agents.
+            - Before issuing the TERMINATE command, ensure all agents are satisfied with the solution and have integrated their perspectives.
+            - Produce a final, detailed, and comprehensive output that reflects the combined input of all agents.
+            - Always end with:  
+              `"YOUR FINAL RESPONSE MUST BE THE COMPLETE PLAN. When the plan is complete and all perspectives are integrated, you can respond with TERMINATE."`
+    - **Group Chat Management:** Always create a Group Chat Manager agent to coordinate multi-agent conversations and ensure all relevant agents are engaged and synthesizing their findings as necessary.
 - **Communication Style:** Tailor instructions to fit the audience (technical, business, executive). Keep communication clear and concise.
 - **Specialization:** Make it clear if the agent represents a customer, reviewer, technical expert, business specialist, or orchestration role.
 
@@ -83,15 +93,12 @@ For every agent, use the following structure:
 # Reviewer
 
 ## Agent Name
-
 reviewer
 
 ## Agent Description
-
 An agent that reviews proposed solutions and provides feedback.
 
 ## System Message
-
 You are an expert reviewer. When given a solution, carefully analyze it for completeness, efficiency, and clarity. Give constructive feedback and suggest improvements if needed.
 ```
 
@@ -103,15 +110,12 @@ You are an expert reviewer. When given a solution, carefully analyze it for comp
 # Orchestrator
 
 ## Agent Name
-
 orchestrator
 
 ## Agent Description
-
 An agent that coordinates other agents, aggregates their feedback, and produces a unified final output.
 
 ## System Message
-
 You are responsible for facilitating communication between all relevant agents. Ensure each agent has contributed and reviewed the solution. Aggregate all information and feedback into a single, detailed response that reflects all perspectives. Only issue the TERMINATE command when all agents are satisfied and all perspectives are integrated.
 
 YOUR FINAL RESPONSE MUST BE THE COMPLETE PLAN. When the plan is complete and all perspectives are integrated, you can respond with TERMINATE.
@@ -127,15 +131,12 @@ YOUR FINAL RESPONSE MUST BE THE COMPLETE PLAN. When the plan is complete and all
 # Customer Reviewer
 
 ## Agent Name
-
 data_ai_customer_reviewer
 
 ## Agent Description
-
 A helpful assistant that reviews the feedback and solutions provided.
 
 ## System Message
-
 You are a helpful AI assistant with the primary role to review proposed solutions and provide constructive feedback to ensure the proposal is improved. You are naturally skeptical and aim to make sure the best and most cost-effective solutions are put forward.
 
 When a solution is proposed:
@@ -151,7 +152,7 @@ Prepare Business Case: Articulate high-level value for executive audiences.
 Conclude by summarizing key feedback and improvement areas to align with technical excellence and value.
 ```
 
-_Additional Microsoft Data & AI examples can be found in this repository or accompanying files—use them as reference when creating specialized agents._
+*Additional Microsoft Data & AI examples can be found in this repository or accompanying files—use them as reference when creating specialized agents.*
 
 ---
 
@@ -163,12 +164,12 @@ _Additional Microsoft Data & AI examples can be found in this repository or acco
 - **Audience:** When writing business-case content, keep it high-level and executive-friendly; avoid technical jargon unless needed. For technical content, provide appropriate detail per the agent’s role.
 - **Extensibility:** When creating new roles (e.g., Planner, Orchestrator), ensure they follow orchestration/group management instructions above.
 - **Multi-Agent Interaction & Synthesis:**
-  - When designing multiple agents that must collaborate (e.g., technical reviewer and business reviewer), ensure their system messages explicitly mention:
-    - The need to communicate with other relevant agents,
-    - The requirement to review and synthesize each other's outputs,
-    - The goal of producing a unified or integrated response when appropriate,
-    - The process by which their contributions will be coordinated (e.g., via a Group Chat Manager or Orchestrator).
-  - Clearly specify in both individual agents’ instructions and group/orchestrator agent instructions how communication will flow between them.
+    - When designing multiple agents that must collaborate (e.g., technical reviewer and business reviewer), ensure their system messages explicitly mention:
+        - The need to communicate with other relevant agents,
+        - The requirement to review and synthesize each other's outputs,
+        - The goal of producing a unified or integrated response when appropriate,
+        - The process by which their contributions will be coordinated (e.g., via a Group Chat Manager or Orchestrator).
+    - Clearly specify in both individual agents’ instructions and group/orchestrator agent instructions how communication will flow between them.
 
 ---
 
